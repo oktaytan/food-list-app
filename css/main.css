@@ -1,0 +1,128 @@
+:root {
+  --mainWhite: #f5f5f5;
+  --mainDark: #333333;
+  --mainOrange: #59e784;
+  --mainGreen: #90a959;
+  --mainRed: #df4449;
+}
+
+body {
+  background: var(--mainWhite);
+  color: var(--mainDark);
+  padding: 2rem;
+}
+
+.submitBtn {
+  color: var(--mainOrange);
+  border: 0.1rem solid var(--mainOrange);
+  background: transparent;
+  transition: all 0.3 ease-in-out;
+}
+
+.submitBtn:hover {
+  background: var(--mainOrange);
+  color: var(--mainDark);
+}
+
+.input-group-text {
+  background: var(--mainOrange);
+}
+
+.edit-icon {
+  text-decoration: none !important;
+  color: var(--mainOrange);
+}
+
+.delete-icon {
+  text-decoration: none !important;
+  color: var(--mainRed);
+}
+
+.itemIcon {
+  font-size: 1rem;
+  transition: color 0.2s ease;
+}
+
+.itemIcon:hover {
+  color: var(--mainWhite);
+}
+
+.feedback {
+  display: none;
+  background-color: var(--mainRed);
+  border-radius: 3rem;
+  color: var(--mainWhite);
+  border: none;
+  font-size: 1rem;
+  padding: 0.4rem;
+}
+
+.showItem {
+  display: block;
+}
+
+input {
+  border-radius: 0 2rem 2rem 0 !important;
+  box-shadow: none !important;
+  border-width: 2px !important;
+  color: var(--mainWhite) !important;
+  border-color: var(--mainOrange) !important;
+}
+
+.input-group-text {
+  border-radius: 2rem 0 0 2rem !important;
+  border-width: 2px;
+  border-color: var(--mainOrange) !important;
+}
+
+input:focus {
+  border-color: var(--mainWhite) !important;
+}
+
+#submitBtn {
+  border-radius: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.text-success {
+  color: var(--mainOrange) !important;
+}
+
+.container {
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5), 0 0 8rem rgba(0, 0, 0, 0.3);
+  min-height: 100vh;
+  overflow-x: hidden;
+  border-radius: 1rem;
+}
+
+.list-group-item {
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.7);
+  border: 2px solid var(--mainOrange);
+  border-radius: 1rem !important;
+  width: 45% !important;
+  margin-right: 0.7rem;
+  margin-left: 0.7rem;
+}
+
+#itemName {
+  font-size: 1.2rem;
+  margin: 1.5rem 0;
+}
+
+#itemImage {
+  border-radius: 50%;
+  border: 2px solid var(--mainOrange);
+  width: 7rem;
+  height: 7rem;
+  margin-top: 0.5rem;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+}
+
+.icons {
+  margin-bottom: 0.5rem;
+}

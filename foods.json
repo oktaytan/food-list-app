@@ -1,0 +1,31 @@
+[{
+    "id": "1",
+    "avatar": "img/burrito.jpeg",
+    "name": "Burrito"
+  },
+  {
+    "id": "2",
+    "avatar": "img/salmon.jpeg",
+    "name": "Salmon"
+  },
+  {
+    "id": "3",
+    "avatar": "img/steak.jpeg",
+    "name": "Steak"
+  },
+  {
+    "id": "4",
+    "avatar": "img/cake.jpeg",
+    "name": "Cake"
+  },
+  {
+    "id": "5",
+    "avatar": "img/pasta.jpeg",
+    "name": "Pasta"
+  },
+  {
+    "id": "6",
+    "avatar": "img/salad.jpeg",
+    "name": "Salad"
+  }
+]

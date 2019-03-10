@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="css/all.css">
+  <title>Food List</title>
+  <style>
+  </style>
+</head>
+
+<body class="bg-dark">
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col col-md-8 mx-auto mt-3">
+        <h3 class="text-center mt-3 text-success">Add food</h3>
+        <div class="feedback alert alert-danger text-center my-4">
+          Alert
+        </div>
+        <!-- form -->
+        <form id='httpForm' class="mb-5 mt-3">
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><i class="fas fa-utensils ml-1"></i></span>
+            </div>
+            <input type="text" id='itemInput' class="bg-dark form-control" placeholder="Enter name" autocomplete="off">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><i class="fas fa-image ml-1"></i></span>
+            </div>
+            <input type="text" id='imageInput' class="text-light bg-dark form-control" placeholder="Image">
+          </div>
+          <button type="submit" id='submitBtn' class="btn submitBtn btn-block">Add Food</button>
+
+        </form>
+        <!-- end of form -->
+        <!-- list  -->
+        <div class="mt-4">
+          <h3 class="text-capitalize text-center text-success mb-4">Foods</h3>
+          <ul class="list-group items d-flex align-items-center justify-content-center flex-wrap">
+            <!-- single item -->
+            <!-- <li class="bg-dark list-group-item d-flex flex-column align-items-center justify-content-between flex-wrap item my-3">
+              <img src="img/default.jpeg" id='itemImage' class='itemImage img-thumbnail bg-dark' alt="">
+              <h6 id="itemName" class="itemName text-light">Food name</h6>
+              <div class="icons">
+
+                <a href='#' class="itemIcon mx-2 edit-icon" data-id=''>
+                  <i class="fas fa-edit"></i>
+                </a>
+                <a href='#' class="itemIcon mx-2 delete-icon" data-id=''>
+                  <i class="fas fa-trash"></i>
+                </a>
+              </div>
+            </li> -->
+            <!-- end of single item -->
+          </ul>
+        </div>
+        <!-- end of list -->
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- jquery -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- script js -->
+  <script src="js/app.js"></script>
+</body>
+
+</html>
